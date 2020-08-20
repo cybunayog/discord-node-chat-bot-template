@@ -27,12 +27,12 @@ Add your bot to the #general channel
 
     // Config properties
     const CONFIG = {
-        token: "TOKEN GOES HERE",
+        token: process.env.BOT_TOKEN,
         channels: {
             general: "GENERAL CHANNEL ID GOES HERE",
         },
     };
-
+NOTE: The token is stored inside an .env file.
 ## Dependencies
 
     "chalk": "^4.1.0",
